@@ -1,4 +1,4 @@
-# CRAFT platform (compact deploy build of UPDATE_168)
+# CRAFT platform (compact deploy build of UPDATE_169)
 
 Same 6-file layout as before:
 
@@ -16,5 +16,5 @@ Same 6-file layout as before:
 2. Render: Build Command `npm install`, Start Command `npm start`. Environment variables are unchanged.
 3. The first start prints `[launcher] unpacked N files`, then `[TEAMARENA] Mounted at /teamarena`. Saved settings under `app/data/` are never overwritten.
 
-## What's new in 168: TEAM ARENA
-Guess panel no longer overlaps the games, cute bosses, redesigned Tug of War (worldwide trivia), Capture the Word and Last Letter Standing, scrolling/aligned settings with every game's options visible, and a 🎮 game picker in the toolbar. Details: `CHANGES_UPDATE_168.md` (inside `app/` after first start). No new environment variables or npm packages.
+## What's new in 169: TEAM ARENA
+Working (scrolling) settings, fixed live chat with its own place and row settings, floating guess window, only joined players count for their own team, better Memory / Sudoku spacing, clearer toolbar. Details: `CHANGES_UPDATE_169.md` (inside `app/` after first start). No new environment variables or npm packages.
