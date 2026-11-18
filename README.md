@@ -1,4 +1,4 @@
-# CRAFT platform (compact deploy build of UPDATE_169)
+# CRAFT platform (compact deploy build of UPDATE_170)
 
 Same 6-file layout as before:
 
@@ -16,5 +16,5 @@ Same 6-file layout as before:
 2. Render: Build Command `npm install`, Start Command `npm start`. Environment variables are unchanged.
 3. The first start prints `[launcher] unpacked N files`, then `[TEAMARENA] Mounted at /teamarena`. Saved settings under `app/data/` are never overwritten.
 
-## What's new in 169: TEAM ARENA
-Working (scrolling) settings, fixed live chat with its own place and row settings, floating guess window, only joined players count for their own team, better Memory / Sudoku spacing, clearer toolbar. Details: `CHANGES_UPDATE_169.md` (inside `app/` after first start). No new environment variables or npm packages.
+## What's new in 170: TEAM ARENA
+17 new team games (Blindle, Oracle, Shiftle, Forbackle, Rangedle, Codedle, Comparable, Shapedle, Fixle, Structle, Colorblindle, Colordle, PIN Breaker, Betweendle, Expandle Race, Word Hunt, Flag Showdown, Category Rush), per-game join time + a Begin-now button, half-height scoreboard, one-row toolbar, Memory starts face-down. Details: `CHANGES_UPDATE_170.md` (inside `app/` after first start). No new environment variables or npm packages. Flag Showdown loads flag pictures from flagcdn.com, like the Flagle game.
